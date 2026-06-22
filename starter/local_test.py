@@ -21,8 +21,8 @@ import numpy as np
 
 # --- practice problem (NOT the real hidden one) ------------------------------
 PRACTICE_CTRS = [0.05, 0.09, 0.04, 0.11, 0.107, 0.02, 0.07, 0.10, 0.03, 0.06]
-HORIZON = 10_000
-SEEDS = list(range(30))
+HORIZON = 5_000
+SEEDS = list(range(10))
 
 
 def load_policy(path):

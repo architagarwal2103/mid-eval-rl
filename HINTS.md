@@ -35,8 +35,8 @@ baseline.
    before you can trust which is better? (Think about the variance of an average of
    coin flips.)
 2. If you commit to the wrong ad early, how many clicks does that cost you over
-   10,000 impressions? (That gap *is* regret.)
-3. Why do we average over **30 seeds**? How could you do the same when tuning
+   5,000 impressions? (That gap *is* regret.)
+3. Why do we average over **10 seeds**? How could you do the same when tuning
    locally so you're measuring skill, not luck? (Hint: `local_test.py` already does.)
 4. Random does ~50% CTR-weighted clicks; optimal hugs the best ad. **What fraction
    of that gap** does your policy close — and which idea moves it the most?

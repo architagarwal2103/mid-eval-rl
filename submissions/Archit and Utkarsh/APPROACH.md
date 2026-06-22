@@ -4,8 +4,8 @@
 > describe what *you* actually did. Replace everything below.
 
 ## 1. Understanding the problem
-10 ads, 10,000 impressions, hidden fixed click-rates, Bernoulli rewards. The
-score is total clicks averaged over 30 seeds, so we want a policy that (a) finds
+10 ads, 5,000 impressions, hidden fixed click-rates, Bernoulli rewards. The
+score is total clicks averaged over 10 seeds, so we want a policy that (a) finds
 the best ad quickly and (b) doesn't keep wasting impressions once it's confident.
 Because the top ads are close together, the hard part is telling the **best** ad
 apart from the **second-best** without overspending.
@@ -18,7 +18,7 @@ We used **epsilon-greedy with a decaying epsilon** (`epsilon = n_arms / t`):
 
 We also force one pull of every ad up front so no ad starts with a blind estimate.
 We chose a decaying schedule over a fixed epsilon because a fixed epsilon keeps
-paying an exploration tax forever — with 10,000 rounds that tax adds up.
+paying an exploration tax forever — with 5,000 rounds that tax adds up.
 
 ## 3. What else we tried
 | Variant | Local avg clicks | Notes |

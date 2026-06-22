@@ -1,7 +1,7 @@
 # 💥 Mid-Eval: Reinforcements Are In — Submissions
 
 Welcome to the **ad-recommender bandit challenge**. You run an ad slot with
-**10 ads**, you get **10,000 impressions**, and each ad has a *hidden, fixed*
+**10 ads**, you get **5,000 impressions**, and each ad has a *hidden, fixed*
 click-through-rate. Build a policy that figures out which ads people click and
 racks up the most clicks. Teams of **2**.
 
