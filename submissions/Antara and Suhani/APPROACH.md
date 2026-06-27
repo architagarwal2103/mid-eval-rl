@@ -31,8 +31,8 @@ prior, exponent=1.5)                                       weighted by progress 
                                                            horizon, already beat the 
                                                            baseline clearly
 
-Clock aware TS, steeper       497.9(regret 51.7, 76% gap   Worse than the initial version, exploitation                  closed)                      shifted to pure exploitation  
-(exponent=2.0)                                             too early costs clicks before  
+Clock aware TS, steeper       497.9(regret 51.7, 76% gap   Worse than the initial version,                                            (exponent=2.0)                closed)                      shifted to pure exploitation  
+                                                           too early costs clicks before  
                                                            there is enough evidence to  
                                                            commit confidently 
 
