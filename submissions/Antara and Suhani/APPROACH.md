@@ -30,7 +30,7 @@ The final approach, which combines a Jeffreys prior, a forced warm-up phase of f
 4. Results:
  - Local practice score: 526.7 clicks, regret 27.6 (closed ~89% of the
   random→optimal gap).
- - Best website leaderboard score: 409.8, rank #3
+ - Best website leaderboard score: 409.8, rank #4
 
 5. What we'd do next:
 Tune the warm-up length ('min_rounds') more precisely we picked 5 somewhat heuristically and didn't have time to sweep it properly. We'd also like to try scaling the warm-up with 'n_arms' and 'horizon' directly, so it generalizes better to bandit instances with a different number of arms or horizon, rather than using a fixed constant.
