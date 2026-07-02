@@ -1,18 +1,18 @@
-# 💥 Mid-Eval: Reinforcements Are In — Submissions
+#  Mid-Eval: Reinforcements Are In — Submissions
 
 Welcome to the **ad-recommender bandit challenge**. You run an ad slot with
 **10 ads**, you get **5,000 impressions**, and each ad has a *hidden, fixed*
 click-through-rate. Build a policy that figures out which ads people click and
 racks up the most clicks. Teams of **2**.
 
-> 🎮 **Practice arena (live leaderboard):** https://mid-eval.onrender.com
+>  **Practice arena (live leaderboard):** https://mid-eval.onrender.com
 > Upload your `policy.py` there as often as you like to test it and climb the board.
 >
-> 📦 **This repo is for your FINAL graded submission**, via Pull Request.
+> **This repo is for your FINAL graded submission**, via Pull Request.
 
 ---
 
-## 🚀 Quick start
+##  Quick start
 
 1. Read the **[problem statement](problem_statement.md)**.
 2. Copy **[`starter/policy_template.py`](starter/policy_template.py)** → `policy.py` and fill in the two TODOs.
@@ -30,7 +30,7 @@ You only need **Python 3** and **numpy** (`pip install numpy`).
 
 ---
 
-## 📦 How to submit (Pull Request)
+##  How to submit (Pull Request)
 
 1. **Fork** this repository (top-right "Fork" button) and clone your fork:
    ```bash
@@ -59,7 +59,7 @@ You only need **Python 3** and **numpy** (`pip install numpy`).
 5. Open a **Pull Request** into this repo. Title it `Submission: <Your Team Name>`
    and fill in the checklist that appears.
 
-### ✅ Submission rules
+### Submission rules
 - Folder name = **first names of both members**, e.g. `Archit and Utkarsh`.
 - Exactly one `policy.py` + one write-up (`APPROACH.md` or PDF). Nothing else.
 - Only edit files **inside your own folder**. Don't touch other teams' folders or the starter kit.
